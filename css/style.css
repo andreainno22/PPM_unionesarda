@@ -594,6 +594,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-x: scroll;
 }
 
 .circular_img {
