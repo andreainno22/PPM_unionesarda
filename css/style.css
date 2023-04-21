@@ -87,7 +87,6 @@ body, html {
 
     .temi_caldi {
         display: none;
-        /*font-size: 200%;*/
     }
 
     /*#accedi {
@@ -424,7 +423,6 @@ a {
         display: flex;
         border-top: lightgray 2px solid;
         flex-direction: column;
-        /*font-size: 150%;*/
         justify-content: flex-start;
     }
 }
@@ -609,17 +607,23 @@ a {
     width: 100%;
 }
 
-@media screen and(max-width: 1100px) {
-    .podcast h1 {
-        font-size: 4vw;
+@media screen and (max-width: 1024px) {
+
+    .podcast_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .podcast_wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        width: 90%;
+        align-self: center;
     }
 
-    .podcast p {
-        font-size: 3vw;
-    }
-
-    .podcast_section h1 {
-        font-size: 4vw;
+    .podcast{
+        margin: 0 10%;
     }
 
 }
