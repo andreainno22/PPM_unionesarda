@@ -44,7 +44,14 @@
 
 
 <div class="header" onscroll="scrolling()">
-    <span class="unione_sarda"><a href="#"> L'UNIONE SARDA.it</a></span>
+    <div class="u_sarda_i_menu">
+        <div class="icon_menu_2" onclick="move(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <span class="unione_sarda"><a href="#"> L'UNIONE SARDA.it</a></span>
+    </div>
     <div class="second_nav">
         <div class="nav_items">
             <span class="second_nav_items"><a href="#" title="Video"> Video </a></span>
@@ -141,6 +148,9 @@
     <script>
         $(document).ready(function () {
             $(".icon_menu").click(function () {
+                $(".lateral_navbar").toggleClass("active");
+            });
+            $(".icon_menu_2").click(function () {
                 $(".lateral_navbar").toggleClass("active");
             });
         });
@@ -392,21 +402,21 @@
             3 MINUTI CON
         </h2>
         <div class="min_con_content">
-            <div style="border-right: lightgrey 1px solid; padding: 2%">
+            <div style=" padding: 2%">
                 <p style="color: white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <img src="https://via.placeholder.com/200x100/6b70c2/f20c1c">
             </div>
-            <div style="border-right: lightgrey 1px solid; padding: 2%">
+            <div style=" padding: 2%">
                 <p style="color: white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <img src="https://via.placeholder.com/200x100/6b70c2/f20c1c">
             </div>
-            <div style="border-right: lightgrey 1px solid; padding: 2%">
+            <div style="padding: 2%">
                 <p style="color: white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -757,9 +767,9 @@
         </div>
     </div>
     <div class="foto_gallery">
-        <h1 style="padding: 1%; margin: 2% 0; background: firebrick; color: white; font-size: 1.6vw; text-align: end">
+        <h2 style="padding: 1%; margin: 2% 0; background: firebrick; color: white; text-align: end">
             FOTO E VIDEO GALLERY
-        </h1>
+        </h2>
         <div class="small_img_container">
             <img class="small_img" src="https://via.placeholder.com/210x80">
             <img class="small_img" src="https://via.placeholder.com/210x80">
@@ -804,9 +814,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -815,9 +825,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -826,9 +836,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -837,9 +847,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -850,9 +860,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -861,9 +871,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -872,9 +882,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -883,9 +893,9 @@
                 <div class="podcast">
                     <img class="circular_img" src="https://via.placeholder.com/80x80/6bc2a0/f20c1c">
                     <section>
-                        <h1 style="color: orange; padding: 1%">
+                        <h2 style="color: orange; padding: 1%">
                             TITOLO
-                        </h1>
+                        </h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         </p>
@@ -1153,7 +1163,8 @@
             <h1 class="unione_sarda" style="color: white"> L'UNIONE SARDA </h1>
             <a href="http://videolina.it"> <img src="imgs/videolina-cover.png" alt="videolina"></a>
             <a href="http://radiolina.it"> <img src="imgs/Radiolina.png" alt="radiolina"></a>
-            <a href="http://sardiniaecommerce.it"> <img src="imgs/sardinia-ecommerce.png" alt="sardinia e-commerce"></a>
+            <a href="http://sardiniaecommerce.it"> <img src="imgs/sardinia-ecommerce.png"
+                                                        alt="sardinia e-commerce"></a>
             <a href="http://pbmnet.it"> <img src="imgs/pbm.png" alt="pbm"></a>
         </div>
         <div class="footer_line" style="background: gray"></div>
