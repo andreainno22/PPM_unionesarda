@@ -622,6 +622,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     padding: 0 2%;
+    border-right: lightgrey 2px solid;
 
 }
 
@@ -642,6 +643,7 @@ a {
 
 .piu_letti h1 {
     width: 20%;
+    padding: 1%; margin: 2% 0; background: firebrick; color: white; text-align: end
 }
 
 @media screen and (max-width: 1100px) {
@@ -655,11 +657,12 @@ a {
     }
 
     .piu_letti_articles {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         padding: 0 2%;
+        border-right: none;
     }
 
     .piu_letti_article h2 {
@@ -668,6 +671,7 @@ a {
 
     .piu_letti h1 {
         width: 30%;
+        padding: 1%; margin: 2% 0; background: firebrick; color: white; text-align: end
     }
 }
 
