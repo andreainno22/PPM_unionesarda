@@ -632,13 +632,16 @@ a {
 }
 
 .piu_letti_article p {
-    margin-left: 5%;
+    margin: 0 3% 0 5%;
     font-weight: bold;
 }
 
 .piu_letti_article h2 {
-    font-size: 4vw;
     color: midnightblue;
+}
+
+.piu_letti h1 {
+    width: 20%;
 }
 
 @media screen and (max-width: 1100px) {
@@ -660,16 +663,11 @@ a {
     }
 
     .piu_letti_article h2 {
-        font-size: 8vw;
-        color: midnightblue;
-    }
-
-    .piu_letti_article p {
-        font-size: 2.65vw;
+        font-size: 200%;
     }
 
     .piu_letti h1 {
-        font-size: 4vw;
+        width: 30%;
     }
 }
 
