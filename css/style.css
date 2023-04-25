@@ -73,7 +73,7 @@ body, html {
 .nav_items {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     font-size: 14px;
 }
@@ -136,6 +136,14 @@ body, html {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav_items {
+        display: flex;
+        justify-content: start;
+        overflow-x: scroll;
     }
 }
 
